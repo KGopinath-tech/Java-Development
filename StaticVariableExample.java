@@ -6,13 +6,12 @@ class Motorbike{
     static String type;
     int mileage;
 
-    public void showbikedetails(){
+    public void showBikeDetails(){
         System.out.println(brand + " : "+ cubicCapacity + " : " + type + " : " + mileage);
     }
 }
 
-
-public class Practice{
+public class StaticVariableExample {
 
     public static void main(String[] args) {
         
@@ -31,7 +30,7 @@ public class Practice{
 
         Motorbike.type="ADV";
 
-        bike.showbikedetails();
-        bike2.showbikedetails();
+        bike.showBikeDetails();
+        bike2.showBikeDetails();
     }
 }
